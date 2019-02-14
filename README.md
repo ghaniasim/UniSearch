@@ -11,4 +11,4 @@ UniSearch provides an efficient solution to the above-mentioned problem. UniSear
 
 Activity:
 
-The app asks you to add the country and the city you are interested in. The app will show you the list of universities available in that area. Once you see the university, you can click and discover all the information about it. You can also add the universities to a list of favorites so that it is easy for you to revisit information about a particular university.
+The app  asks you to add the country and the city you are interested in.Then the app will show you the list of universities available in that area. Once you see the university, you can click and discover all the information about it. You can also add the universities to a list of favorites so that it is easy for you to revisit information about a particular university.
