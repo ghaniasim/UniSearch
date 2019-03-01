@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">UniSearch</string>
+     <string name="w1">Welcome to Uni-Search</string>
+
+    <string name="body">We know that your next step in education is a big one.
+        Uni- Search will enable you to find your perfect university in your preferable location.
+        By following our simple step-by-step search tool you’ll be able to easily find which
+        University suit you best and compare them. </string>
+
+    <string name="b1">Proceed</string>
+
+    <string name="tv1">text1</string>
+    <string name="tv2">text2</string>
+    <string name="tv3">text3</string>
+    
+    
+    
+    
 </resources>
