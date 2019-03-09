@@ -1,6 +1,6 @@
 # UniSearch
 
-Title and scope of the App::
+Title and scope of the App:
 
 UniSearch provides you an excellent platform for searching information regarding universities. The app provides you quick and up to date information on educational degrees, application procedures, financial costs and relevant contacts. The app also provides details regarding the well being and health related services available at universities.
 
