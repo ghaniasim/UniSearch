@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+
 public class SelectionActivity extends AppCompatActivity {
 
     String [] COUNTRYLIST = {"Select Country","Finland", "Norway", "Sweden", "Denmark", "Pakistan", "Bangladesh"};
@@ -12,11 +13,13 @@ public class SelectionActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_selection);
+
         ArrayAdapter<String> countryAdapter = new ArrayAdapter<String>(this,
                 R.layout.support_simple_spinner_dropdown_item,COUNTRYLIST
         );
         Spinner countrySpinner = findViewById(R.id.country_spinner);
         countrySpinner.setAdapter(countryAdapter);
+
         ArrayAdapter<String> cityAdapter = new ArrayAdapter<String>(this,
                 R.layout.support_simple_spinner_dropdown_item,CITYLIST
         );
