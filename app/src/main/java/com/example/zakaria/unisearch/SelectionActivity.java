@@ -17,3 +17,10 @@ public class SelectionActivity extends AppCompatActivity {
         );
         Spinner countrySpinner = findViewById(R.id.country_spinner);
         countrySpinner.setAdapter(countryAdapter);
+        ArrayAdapter<String> cityAdapter = new ArrayAdapter<String>(this,
+                R.layout.support_simple_spinner_dropdown_item,CITYLIST
+        );
+        Spinner citySpinner = findViewById(R.id.city_spinner);
+        citySpinner.setAdapter(cityAdapter);
+    }
+}
