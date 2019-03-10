@@ -10,7 +10,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Again"
+        android:text="Hello Againnnnn"
         android:textSize="36sp"
         tools:layout_editor_absoluteX="200dp"
         tools:layout_editor_absoluteY="162dp" />
