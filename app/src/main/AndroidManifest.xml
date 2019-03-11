@@ -9,8 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UniversityDetail"></activity>
-        <activity android:name=".ResultActivity" />
+        <activity android:name=".UniversityDetail">
+            android:parentActivityName=".ResultActivity">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ResultActivity" />
+        </activity>
+        <activity android:name=".ResultActivity">
+            android:parentActivityName=".SelectionActivity">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SelectionActivity" />
+        </activity>
         <activity android:name=".SelectionActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
