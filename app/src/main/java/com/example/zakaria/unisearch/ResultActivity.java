@@ -1,5 +1,6 @@
 package com.example.zakaria.unisearch;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -35,6 +36,10 @@ public class ResultActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
                 switch (item.getItemId()) {
+                    case R.id.nav_search:
+                        Intent intent = new Intent(ResultActivity.this, SelectionActivity.class);
+                        startActivity(intent);
+                        return true;
                     case R.id.nav_list:
                         setFragment(listFragment);
                         return true;
