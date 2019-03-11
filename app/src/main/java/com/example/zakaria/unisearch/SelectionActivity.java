@@ -1,7 +1,9 @@
 package com.example.zakaria.unisearch;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
@@ -25,5 +27,11 @@ public class SelectionActivity extends AppCompatActivity {
         Spinner citySpinner = findViewById(R.id.city_spinner);
         citySpinner.setAdapter(cityAdapter);
 
+    }
+
+    /** Called when the user taps the Next button */
+    public void next(View view) {
+        Intent intent = new Intent(this, ResultActivity.class);
+        startActivity(intent);
     }
 }
