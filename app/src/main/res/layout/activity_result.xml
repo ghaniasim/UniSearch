@@ -7,6 +7,7 @@
     tools:context=".ResultActivity">
 
     <android.support.design.widget.BottomNavigationView
+        android:id="@+id/main_nav"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_alignParentBottom="true"
@@ -15,5 +16,13 @@
         app:itemIconTint="@color/nav_item_colors"
         app:itemTextColor="@color/nav_item_colors"
         app:menu="@menu/nav_items" />
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_nav">
+
+    </FrameLayout>
 
 </RelativeLayout>
