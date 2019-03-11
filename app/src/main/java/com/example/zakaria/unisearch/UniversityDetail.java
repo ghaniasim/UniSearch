@@ -1,7 +1,9 @@
 package com.example.zakaria.unisearch;
 
+import android.media.Image;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class UniversityDetail extends AppCompatActivity {
@@ -16,5 +18,6 @@ public class UniversityDetail extends AppCompatActivity {
 
         ((TextView)findViewById(R.id.textViewTitle))
                 .setText(UniversityList.getInstance().getUniversity(i).getName());
+        ((ImageView)findViewById(R.id.imageView)).setImageResource(UniversityList.getInstance().getUniversity(i).getImage());
     }
 }
