@@ -11,6 +11,7 @@ public class UniversityList {
     }
 
     private List<University> universities;
+    private List<String> favourite_universities = new ArrayList<String>();
 
     public void add() {
         universities = new ArrayList<University>();
@@ -26,11 +27,23 @@ public class UniversityList {
         universities.add(new University("Helsinki Design School", R.drawable.desing));
     }
 
+    public void addToArray(String name) {
+            favourite_universities.add(name);
+    }
+
+    public List<String> getFavUniversityList() {
+        return this.favourite_universities;
+    }
+
     public List<University> getUniversityList() {
         return this.universities;
     }
 
     public University getUniversity(int value) {
         return this.universities.get(value);
+    }
+
+    public String getFavUniversity(int value) {
+        return this.favourite_universities.get(value);
     }
 }
