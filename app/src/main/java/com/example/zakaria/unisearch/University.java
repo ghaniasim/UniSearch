@@ -26,14 +26,6 @@ public class University {
         return image;
     }
 
-    public void addToArray(String name){
-        this.names.add(name);
-    }
-
-    public ArrayList<String> getArray() {
-        return this.names;
-    }
-
     @Override
     public String toString() {
         return this.name;
