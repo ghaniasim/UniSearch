@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     tools:context=".ResultActivity">
 
+   
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/main_nav"
         android:layout_width="match_parent"
