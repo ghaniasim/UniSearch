@@ -11,7 +11,7 @@ public class UniversityList {
     }
 
     private List<University> universities;
-    private List<String> favourite_universities = new ArrayList<String>();
+    private ArrayList<String> favourite_universities = new ArrayList<String>();
 
     public void add() {
         universities = new ArrayList<University>();
@@ -31,7 +31,7 @@ public class UniversityList {
             favourite_universities.add(name);
     }
 
-    public List<String> getFavUniversityList() {
+    public ArrayList<String> getFavUniversityList() {
         return this.favourite_universities;
     }
 
