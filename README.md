@@ -14,3 +14,14 @@ UniSearch provides an efficient solution to the above-mentioned problem. UniSear
 Activity:
 
 The app asks you to add the country and the city you are interested in.Then the app will show you the list of universities available in that area. Once you see the university, you can click and discover all the information about it. You can also add the universities to a list of favorites so that it is easy for you to revisit information about a particular university.
+
+
+# Installation Guide: 
+
+1. Click on the "Clone or Download" button on the top right corner.
+2. Download ZIP.
+3. Extract ZIP file on your desired location.
+4. Open the folder with Android Studio. 
+5. Click on the play button or (Shift + F10) in the Android Studio. 
+6. Select your connected android device or emulater. 
+7. Use and enjoy the app!  
