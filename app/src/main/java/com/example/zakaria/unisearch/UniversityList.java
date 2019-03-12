@@ -3,9 +3,17 @@ package com.example.zakaria.unisearch;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The type University list.
+ */
 public class UniversityList {
     private static final UniversityList ourInstance = new UniversityList();
 
+    /**
+     * Gets instance.
+     *
+     * @return the instance
+     */
     public static UniversityList getInstance() {
         return ourInstance;
     }
@@ -13,6 +21,9 @@ public class UniversityList {
     private List<University> universities;
     private ArrayList<String> favourite_universities = new ArrayList<String>();
 
+    /**
+     * Add.
+     */
     public void add() {
         universities = new ArrayList<University>();
         universities.add(new University("University of Helsinki", R.drawable.helsinki));
@@ -27,22 +38,49 @@ public class UniversityList {
         universities.add(new University("Helsinki Design School", R.drawable.desing));
     }
 
+    /**
+     * Add to array.
+     *
+     * @param name the name
+     */
     public void addToArray(String name) {
             favourite_universities.add(name);
     }
 
+    /**
+     * Gets fav university list.
+     *
+     * @return the fav university list
+     */
     public ArrayList<String> getFavUniversityList() {
         return this.favourite_universities;
     }
 
+    /**
+     * Gets university list.
+     *
+     * @return the university list
+     */
     public List<University> getUniversityList() {
         return this.universities;
     }
 
+    /**
+     * Gets university.
+     *
+     * @param value the value
+     * @return the university
+     */
     public University getUniversity(int value) {
         return this.universities.get(value);
     }
 
+    /**
+     * Gets fav university.
+     *
+     * @param value the value
+     * @return the fav university
+     */
     public String getFavUniversity(int value) {
         return this.favourite_universities.get(value);
     }

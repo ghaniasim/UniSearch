@@ -11,6 +11,9 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+/**
+ * The type University detail.
+ */
 public class UniversityDetail extends AppCompatActivity {
 
     private ImageView image;
@@ -45,6 +48,11 @@ public class UniversityDetail extends AppCompatActivity {
         });
     }
 
+    /**
+     * Add data.
+     *
+     * @param name the name
+     */
     public void AddData(String name) {
         if(!UniversityList.getInstance().getFavUniversityList().contains(name)) {
             UniversityList.getInstance().addToArray(name);

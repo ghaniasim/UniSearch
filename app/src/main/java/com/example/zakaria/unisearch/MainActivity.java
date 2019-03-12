@@ -5,6 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+/**
+ * The type Main activity.
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -13,7 +16,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    /** Called when the user taps the Proceed button */
+    /**
+     * Called when the user taps the Proceed button  @param view the view
+     */
     public void proceed(View view) {
         Intent intent = new Intent(this, SelectionActivity.class);
         startActivity(intent);

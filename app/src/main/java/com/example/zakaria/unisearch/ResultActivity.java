@@ -10,6 +10,9 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
 
+/**
+ * The type Result activity.
+ */
 public class ResultActivity extends AppCompatActivity {
 
     private BottomNavigationView mMainNav;

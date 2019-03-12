@@ -7,9 +7,18 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
+/**
+ * The type Selection activity.
+ */
 public class SelectionActivity extends AppCompatActivity {
 
+    /**
+     * The Countrylist.
+     */
     String [] COUNTRYLIST = {"Select Country","Finland", "Norway", "Sweden", "Denmark", "Pakistan", "Bangladesh"};
+    /**
+     * The Citylist.
+     */
     String [] CITYLIST = {"Select City","Helsinki", "Turku", "Tampere", "Oulu"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +38,9 @@ public class SelectionActivity extends AppCompatActivity {
 
     }
 
-    /** Called when the user taps the Next button */
+    /**
+     * Called when the user taps the Next button  @param view the view
+     */
     public void next(View view) {
         Intent intent = new Intent(this, ResultActivity.class);
         startActivity(intent);
